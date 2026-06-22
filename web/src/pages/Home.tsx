@@ -10,16 +10,16 @@ import client from '../api/client';
 
 // Real Mayian Luxury Motel photos
 const PHOTOS = {
-  hero:     '/images/mayian-hero.png',
-  grounds:  '/images/mayian-grounds.png',
-  spiral:   '/images/mayian-spiral.png',
-  garden:   '/images/mayian-garden.png',
-  entrance: '/images/mayian-entrance.png',
-  tower:    '/images/mayian-tower.png',
-  tower2:   '/images/mayian-tower2.png',
-  exterior: '/images/mayian-exterior.png',
-  mountain: '/images/mayian-mountain.png',
-  bar:      '/images/mayian-bar.png',
+  hero:     '/images/mayian-hero.jpg',
+  grounds:  '/images/mayian-grounds.jpg',
+  spiral:   '/images/mayian-spiral.jpg',
+  garden:   '/images/mayian-garden.jpg',
+  entrance: '/images/mayian-entrance.jpg',
+  tower:    '/images/mayian-tower.jpg',
+  tower2:   '/images/mayian-tower2.jpg',
+  exterior: '/images/mayian-exterior.jpg',
+  mountain: '/images/mayian-mountain.jpg',
+  bar:      '/images/mayian-bar.jpg',
 };
 
 const GALLERY = [

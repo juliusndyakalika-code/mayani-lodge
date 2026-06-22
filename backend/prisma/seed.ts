@@ -31,9 +31,9 @@ async function main() {
       featured: false,
       amenities: JSON.stringify(['Free WiFi', 'Fan', 'Flat-screen TV', 'Hot Shower', 'Daily Housekeeping', 'Free Parking', 'Mosquito Net', 'Tea & Coffee Maker']),
       images: JSON.stringify([
-        '/images/mayian-tower.png',
-        '/images/mayian-grounds.png',
-        '/images/mayian-entrance.png',
+        '/images/mayian-tower.jpg',
+        '/images/mayian-grounds.jpg',
+        '/images/mayian-entrance.jpg',
       ]),
     },
     {
@@ -47,9 +47,9 @@ async function main() {
       featured: true,
       amenities: JSON.stringify(['Free WiFi', 'Air Conditioning', 'Flat-screen TV', 'Hot Shower', 'Private Balcony', 'Mini Fridge', 'Room Service', 'Daily Housekeeping', 'Free Parking', 'Mosquito Net']),
       images: JSON.stringify([
-        '/images/mayian-entrance.png',
-        '/images/mayian-tower.png',
-        '/images/mayian-garden.png',
+        '/images/mayian-entrance.jpg',
+        '/images/mayian-tower.jpg',
+        '/images/mayian-garden.jpg',
       ]),
     },
     {
@@ -63,9 +63,9 @@ async function main() {
       featured: true,
       amenities: JSON.stringify(['Free WiFi', 'Air Conditioning', 'Smart TV', 'Hot Shower', 'Separate Sitting Area', 'Mini Fridge', 'Room Service', 'Garden View', 'Daily Housekeeping', 'Free Parking', 'Tea & Coffee Maker']),
       images: JSON.stringify([
-        '/images/mayian-garden.png',
-        '/images/mayian-grounds.png',
-        '/images/mayian-tower2.png',
+        '/images/mayian-garden.jpg',
+        '/images/mayian-grounds.jpg',
+        '/images/mayian-tower2.jpg',
       ]),
     },
     {
@@ -79,9 +79,9 @@ async function main() {
       featured: false,
       amenities: JSON.stringify(['Free WiFi', 'Air Conditioning', 'Two Bedrooms', 'Two Bathrooms', 'Living Area', 'Two Smart TVs', 'Mini Fridge', 'Room Service', 'Daily Housekeeping', 'Free Parking', 'Mosquito Nets']),
       images: JSON.stringify([
-        '/images/mayian-grounds.png',
-        '/images/mayian-garden.png',
-        '/images/mayian-hero.png',
+        '/images/mayian-grounds.jpg',
+        '/images/mayian-garden.jpg',
+        '/images/mayian-hero.jpg',
       ]),
     },
     {
@@ -95,9 +95,9 @@ async function main() {
       featured: true,
       amenities: JSON.stringify(['Free WiFi', 'Air Conditioning', 'Private Lounge', 'Balcony with Mountain View', 'Smart TV', 'Mini Bar', '24h Room Service', 'Rain Shower', 'Walk-in Wardrobe', 'Daily Housekeeping', 'Free Parking', 'Tea & Coffee Maker']),
       images: JSON.stringify([
-        '/images/mayian-mountain.png',
-        '/images/mayian-tower.png',
-        '/images/mayian-spiral.png',
+        '/images/mayian-mountain.jpg',
+        '/images/mayian-tower.jpg',
+        '/images/mayian-spiral.jpg',
       ]),
     },
     {
@@ -111,9 +111,9 @@ async function main() {
       featured: true,
       amenities: JSON.stringify(['Free WiFi', 'Air Conditioning', 'Wraparound Balcony', 'Panoramic Views', 'Smart TV', 'Mini Bar', '24h Room Service', 'Premium Shower', 'Safe', 'Daily Housekeeping', 'Free Parking', 'Airport Pickup Available', 'Concierge Service']),
       images: JSON.stringify([
-        '/images/mayian-tower2.png',
-        '/images/mayian-spiral.png',
-        '/images/mayian-exterior.png',
+        '/images/mayian-tower2.jpg',
+        '/images/mayian-spiral.jpg',
+        '/images/mayian-exterior.jpg',
       ]),
     },
   ];
