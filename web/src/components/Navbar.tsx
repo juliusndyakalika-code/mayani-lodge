@@ -49,7 +49,7 @@ export function Navbar() {
             <Hotel className={`h-7 w-7 ${transparent ? 'text-amber-300' : 'text-amber-600'}`} />
             <div>
               <div className={`text-lg font-bold leading-none tracking-tight ${transparent ? 'text-white' : 'text-[#1a2f4e]'}`} style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
-                Mayani Lodge
+                Mayian Luxury Motel
               </div>
             </div>
           </Link>

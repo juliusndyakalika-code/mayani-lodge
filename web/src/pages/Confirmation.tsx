@@ -52,7 +52,7 @@ export function Confirmation() {
             <img src={booking.room.images[0]} alt={booking.room.name} className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <div className="absolute bottom-4 left-5 text-white">
-              <p className="text-xs uppercase tracking-widest text-amber-300 mb-1">Mayani Lodge</p>
+              <p className="text-xs uppercase tracking-widest text-amber-300 mb-1">Mayian Luxury Motel</p>
               <h2 className="text-2xl font-bold" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>{booking.room.name}</h2>
             </div>
             <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">

@@ -22,7 +22,7 @@ export function AdminLayout() {
         <div className="flex items-center gap-2.5">
           <Hotel className="h-7 w-7 text-amber-400" />
           <div>
-            <div className="font-bold text-base leading-none" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayani Lodge</div>
+            <div className="font-bold text-base leading-none" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayian Luxury Motel</div>
             <div className="text-[10px] text-amber-400/70 uppercase tracking-widest mt-0.5">Admin Panel</div>
           </div>
         </div>
@@ -86,7 +86,7 @@ export function AdminLayout() {
             <Menu className="h-6 w-6" />
           </button>
           <span className="font-semibold text-[#1a2f4e] text-sm" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
-            Mayani Lodge Admin
+            Mayian Luxury Motel Admin
           </span>
           <div className="w-8" />
         </header>

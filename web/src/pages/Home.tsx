@@ -8,7 +8,7 @@ import { RoomCard } from '../components/RoomCard';
 import { Room } from '../types';
 import client from '../api/client';
 
-// Real Mayani Lodge photos
+// Real Mayian Luxury Motel photos
 const PHOTOS = {
   hero:     '/images/mayani-hero.jpeg',
   pathway:  '/images/mayani-pathway.jpeg',
@@ -34,7 +34,7 @@ const AMENITIES = [
 
 const REVIEWS = [
   { name: 'Sarah M.',  country: 'Kenya',          rating: 5, text: 'Absolutely beautiful grounds. The bungalows are so peaceful and the staff were incredibly welcoming. Will definitely come back!' },
-  { name: 'James O.',  country: 'Uganda',         rating: 5, text: 'Mayani Lodge is a hidden gem. Tranquil, green, and well-kept. Exactly what I needed for a quiet getaway.' },
+  { name: 'James O.',  country: 'Uganda',         rating: 5, text: 'Mayian Luxury Motel is a hidden gem in Usa River. Tranquil, green, and well-kept. Exactly what I needed for a quiet getaway.' },
   { name: 'Amina K.', country: 'Tanzania',        rating: 5, text: 'The gardens are stunning and the rooms are spacious and clean. Great value for the quality you get.' },
 ];
 
@@ -87,11 +87,11 @@ export function Home() {
 
         <div className="relative z-10 text-center px-4 w-full max-w-5xl mx-auto">
           <p className="text-amber-400 text-xs uppercase tracking-[5px] mb-4 font-medium">Welcome to</p>
-          <h1 className="text-6xl sm:text-7xl md:text-9xl font-bold text-white mb-4 leading-tight" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
-            Mayani<br /><span className="text-amber-400">Lodge</span>
+          <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white mb-4 leading-tight" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
+            Mayian<br /><span className="text-amber-400">Luxury Motel</span>
           </h1>
           <p className="text-white/75 text-base md:text-xl mb-12 max-w-xl mx-auto font-light">
-            A tranquil retreat surrounded by tropical gardens — where comfort, nature and warm hospitality meet.
+            A tranquil retreat in Usa River, Arusha — where comfort, nature and warm hospitality meet.
           </p>
 
           {/* Search Card */}
@@ -211,14 +211,14 @@ export function Home() {
           <div className="text-center mb-12">
             <p className="text-amber-600 text-xs uppercase tracking-[4px] font-semibold mb-3">The Property</p>
             <h2 className="text-4xl md:text-5xl font-bold text-[#1a2f4e]" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
-              Explore Mayani Lodge
+              Explore Mayian Luxury Motel
             </h2>
           </div>
 
           <div className="grid grid-cols-12 gap-3 h-[520px]">
             {/* Large left */}
             <div className="col-span-12 md:col-span-6 rounded-2xl overflow-hidden">
-              <img src={PHOTOS.hero} alt="Mayani Lodge entrance" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              <img src={PHOTOS.hero} alt="Mayian Luxury Motel entrance" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
             </div>
             {/* Right column 2×2 */}
             <div className="col-span-12 md:col-span-6 grid grid-cols-2 gap-3">
@@ -283,12 +283,12 @@ export function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-amber-400 text-xs uppercase tracking-[4px] font-semibold mb-4">Why Mayani Lodge</p>
+              <p className="text-amber-400 text-xs uppercase tracking-[4px] font-semibold mb-4">Why Mayian Luxury Motel</p>
               <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
                 A Place You'll<br />Want to Return To
               </h2>
               <p className="text-gray-300 text-sm leading-relaxed mb-8">
-                Mayani Lodge isn't just accommodation — it's a feeling. Nestled in a lush compound of towering palms and manicured lawns, each bungalow offers a private, peaceful escape from the everyday.
+                Mayian Luxury Motel isn't just accommodation — it's a feeling. Nestled in Usa River, Arusha, amid towering palms and manicured lawns, each room offers a private, peaceful escape from the everyday.
               </p>
               <div className="space-y-4">
                 {[
@@ -361,11 +361,11 @@ export function Home() {
 
       {/* ─── CTA Banner ─── */}
       <section className="relative py-28 overflow-hidden">
-        <img src={PHOTOS.pathway} alt="Mayani Lodge" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={PHOTOS.pathway} alt="Mayian Luxury Motel" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-[#1a2f4e]/75" />
         <div className="relative text-center text-white px-4">
           <h2 className="text-4xl md:text-6xl font-bold mb-4" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
-            Ready to Experience<br />Mayani Lodge?
+            Ready to Experience<br />Mayian Luxury Motel?
           </h2>
           <p className="text-white/75 mb-10 text-lg max-w-xl mx-auto">
             Book directly for the best rates and a warm, personal welcome.

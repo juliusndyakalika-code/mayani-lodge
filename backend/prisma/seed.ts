@@ -103,7 +103,7 @@ async function main() {
     {
       name: 'Executive Room',
       type: 'PENTHOUSE',
-      description: 'Our premium executive room — the finest accommodation at Mayani Lodge. Extra-large layout, superior furnishings, and a garden-facing verandah for an elevated Arusha experience.',
+      description: 'Our premium executive room — the finest accommodation at Mayian Luxury Motel. Extra-large layout, superior furnishings, and a garden-facing verandah for an elevated Arusha experience.',
       price: 50000,
       capacity: 4,
       size: 55,

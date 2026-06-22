@@ -40,7 +40,7 @@ export function Login() {
         <div className="absolute inset-0 bg-[#1a2f4e]/70 flex items-center justify-center p-12">
           <div className="text-white text-center">
             <Hotel className="h-12 w-12 text-amber-400 mx-auto mb-4" />
-            <h2 className="text-4xl font-bold mb-3" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayani Lodge</h2>
+            <h2 className="text-4xl font-bold mb-3" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayian Luxury Motel</h2>
             <p className="text-white/70 text-sm leading-relaxed">
               Sign in to manage your reservations, access exclusive member benefits, and enjoy a personalized experience.
             </p>
@@ -53,7 +53,7 @@ export function Login() {
         <div className="w-full max-w-sm">
           <div className="lg:hidden flex items-center gap-2 mb-8">
             <Hotel className="h-7 w-7 text-amber-500" />
-            <span className="text-xl font-bold text-[#1a2f4e]" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayani Lodge</span>
+            <span className="text-xl font-bold text-[#1a2f4e]" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayian Luxury Motel</span>
           </div>
 
           <h1 className="text-3xl font-bold text-[#1a2f4e] mb-1" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Welcome Back</h1>

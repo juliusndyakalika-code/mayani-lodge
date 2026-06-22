@@ -10,11 +10,11 @@ export function Footer() {
             <div className="flex items-center gap-2.5 mb-5">
               <Hotel className="h-8 w-8 text-amber-400" />
               <div>
-                <div className="text-xl font-bold" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayani Lodge</div>
+                <div className="text-xl font-bold" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>Mayian Luxury Motel</div>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Where luxury meets paradise. Experience world-class hospitality, breathtaking ocean views, and memories that last a lifetime.
+              A tranquil retreat in Usa River, Arusha. Experience warm hospitality, lush tropical gardens, and comfortable rooms that feel like home.
             </p>
             <div className="flex gap-3">
               {[Facebook, Instagram, Twitter, Youtube].map((Icon, i) => (
@@ -66,7 +66,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin className="h-4 w-4 text-amber-400 mt-0.5 shrink-0" />
-                <span>Leganga, Arumeru — Arusha, Tanzania</span>
+                <span>Usa River (Mto wa Mbu) — Arusha, Tanzania</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Phone className="h-4 w-4 text-amber-400 shrink-0" />
@@ -81,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">© 2026 Mayani Lodge. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© 2026 Mayian Luxury Motel. All rights reserved.</p>
           <div className="flex gap-6">
             {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((item) => (
               <a key={item} href="#" className="text-gray-500 hover:text-amber-400 transition-colors text-sm">
