@@ -10,26 +10,34 @@ import client from '../api/client';
 
 // Real Mayian Luxury Motel photos
 const PHOTOS = {
-  hero:     '/images/mayani-hero.jpeg',
-  pathway:  '/images/mayani-pathway.jpeg',
-  spiral:   '/images/mayani-spiral.jpeg',
-  garden:   '/images/mayani-garden.jpeg',
-  entrance: '/images/mayani-entrance.jpeg',
+  hero:     '/images/mayian-hero.png',
+  grounds:  '/images/mayian-grounds.png',
+  spiral:   '/images/mayian-spiral.png',
+  garden:   '/images/mayian-garden.png',
+  entrance: '/images/mayian-entrance.png',
+  tower:    '/images/mayian-tower.png',
+  tower2:   '/images/mayian-tower2.png',
+  exterior: '/images/mayian-exterior.png',
+  mountain: '/images/mayian-mountain.png',
+  bar:      '/images/mayian-bar.png',
 };
 
 const GALLERY = [
-  { src: PHOTOS.hero,     label: 'Main Entrance' },
-  { src: PHOTOS.pathway,  label: 'Garden Pathway' },
-  { src: PHOTOS.spiral,   label: 'Courtyard' },
-  { src: PHOTOS.garden,   label: 'Tropical Gardens' },
-  { src: PHOTOS.entrance, label: 'Lodge Verandah' },
+  { src: PHOTOS.hero,     label: 'Main Building' },
+  { src: PHOTOS.grounds,  label: 'Motel Grounds' },
+  { src: PHOTOS.garden,   label: 'Garden View' },
+  { src: PHOTOS.entrance, label: 'Tower Entrance' },
+  { src: PHOTOS.spiral,   label: 'Spiral Staircase' },
+  { src: PHOTOS.tower,    label: 'Balcony Suite' },
+  { src: PHOTOS.exterior, label: 'Full Compound' },
+  { src: PHOTOS.mountain, label: 'Mt. Meru Views' },
 ];
 
 const AMENITIES = [
-  { icon: Trees,    label: 'Tropical Gardens',  desc: 'Lush manicured grounds with exotic palms & plants', img: PHOTOS.garden },
-  { icon: Utensils, label: 'Restaurant & Bar',  desc: 'Fresh local cuisine and refreshing drinks daily',   img: PHOTOS.pathway },
-  { icon: Wifi,     label: 'Free WiFi',          desc: 'High-speed internet throughout the property',       img: PHOTOS.entrance },
-  { icon: Shield,   label: 'Secure & Private',   desc: 'Gated compound with 24/7 security',                img: PHOTOS.spiral },
+  { icon: Trees,    label: 'Tropical Gardens',  desc: 'Lush manicured grounds with palms & scenic mountain views', img: PHOTOS.grounds },
+  { icon: Utensils, label: 'Restaurant & Bar',  desc: 'Fresh local cuisine and refreshing drinks daily',            img: PHOTOS.bar },
+  { icon: Wifi,     label: 'Free WiFi',          desc: 'High-speed internet throughout the property',                img: PHOTOS.tower },
+  { icon: Shield,   label: 'Secure & Private',   desc: 'Gated compound with 24/7 security',                         img: PHOTOS.exterior },
 ];
 
 const REVIEWS = [
@@ -218,11 +226,11 @@ export function Home() {
           <div className="grid grid-cols-12 gap-3 h-[520px]">
             {/* Large left */}
             <div className="col-span-12 md:col-span-6 rounded-2xl overflow-hidden">
-              <img src={PHOTOS.hero} alt="Mayian Luxury Motel entrance" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              <img src={PHOTOS.hero} alt="Mayian Luxury Motel main building" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
             </div>
             {/* Right column 2×2 */}
             <div className="col-span-12 md:col-span-6 grid grid-cols-2 gap-3">
-              {[PHOTOS.pathway, PHOTOS.spiral, PHOTOS.garden, PHOTOS.entrance].map((src, i) => (
+              {[PHOTOS.grounds, PHOTOS.spiral, PHOTOS.garden, PHOTOS.entrance].map((src, i) => (
                 <div key={i} className="rounded-xl overflow-hidden">
                   <img src={src} alt={GALLERY[i + 1]?.label} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
@@ -310,10 +318,10 @@ export function Home() {
 
             {/* Real photo grid */}
             <div className="grid grid-cols-2 gap-4">
-              <img src={PHOTOS.pathway}  alt="Pathway" className="rounded-2xl w-full h-52 object-cover" />
-              <img src={PHOTOS.garden}   alt="Garden"  className="rounded-2xl w-full h-52 object-cover mt-8" />
-              <img src={PHOTOS.spiral}   alt="Spiral"  className="rounded-2xl w-full h-52 object-cover" />
-              <img src={PHOTOS.entrance} alt="Entrance" className="rounded-2xl w-full h-52 object-cover mt-8" />
+              <img src={PHOTOS.grounds}  alt="Motel grounds"   className="rounded-2xl w-full h-52 object-cover" />
+              <img src={PHOTOS.garden}   alt="Garden view"     className="rounded-2xl w-full h-52 object-cover mt-8" />
+              <img src={PHOTOS.tower}    alt="Balcony suite"   className="rounded-2xl w-full h-52 object-cover" />
+              <img src={PHOTOS.mountain} alt="Mt. Meru views"  className="rounded-2xl w-full h-52 object-cover mt-8" />
             </div>
           </div>
         </div>
@@ -361,7 +369,7 @@ export function Home() {
 
       {/* ─── CTA Banner ─── */}
       <section className="relative py-28 overflow-hidden">
-        <img src={PHOTOS.pathway} alt="Mayian Luxury Motel" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={PHOTOS.hero} alt="Mayian Luxury Motel" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-[#1a2f4e]/75" />
         <div className="relative text-center text-white px-4">
           <h2 className="text-4xl md:text-6xl font-bold mb-4" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
