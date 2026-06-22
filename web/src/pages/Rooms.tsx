@@ -17,7 +17,7 @@ export function Rooms() {
   const [checkOut, setCheckOut] = useState(searchParams.get('checkOut') || '');
   const [guests, setGuests] = useState(Number(searchParams.get('guests') || 1));
   const [selectedType, setSelectedType] = useState(searchParams.get('type') || 'ALL');
-  const [maxPrice, setMaxPrice] = useState(2000);
+  const [maxPrice, setMaxPrice] = useState(200000);
   const [sortBy, setSortBy] = useState<'price_asc' | 'price_desc' | 'capacity'>('price_asc');
 
   useEffect(() => {
@@ -111,15 +111,15 @@ export function Rooms() {
               </div>
               <div className="flex-1 min-w-[200px]">
                 <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">
-                  Max Price: <span className="text-amber-600">${maxPrice}/night</span>
+                  Max Price: <span className="text-amber-600">TZS {maxPrice.toLocaleString()}/night</span>
                 </p>
-                <input type="range" min={100} max={2000} step={50} value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))}
+                <input type="range" min={10000} max={200000} step={5000} value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))}
                   className="w-full accent-amber-500" />
                 <div className="flex justify-between text-xs text-gray-400 mt-1">
-                  <span>$100</span><span>$2,000</span>
+                  <span>TZS 10,000</span><span>TZS 200,000</span>
                 </div>
               </div>
-              <button onClick={() => { setSelectedType('ALL'); setMaxPrice(2000); setCheckIn(''); setCheckOut(''); setGuests(1); }}
+              <button onClick={() => { setSelectedType('ALL'); setMaxPrice(200000); setCheckIn(''); setCheckOut(''); setGuests(1); }}
                 className="flex items-center gap-1 text-sm text-red-500 hover:text-red-700 mt-auto">
                 <X className="h-3.5 w-3.5" /> Reset
               </button>
