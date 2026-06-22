@@ -11,7 +11,11 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors({ origin: ['http://localhost:5174', 'http://localhost:5173', 'http://localhost:3000'], credentials: true }));
+const ALLOWED_ORIGINS = [
+  'http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000',
+  ...(process.env.FRONTEND_URL ? [process.env.FRONTEND_URL] : []),
+];
+app.use(cors({ origin: ALLOWED_ORIGINS, credentials: true }));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
